@@ -1,0 +1,13 @@
+<?php
+
+$host= "localhost";
+$user= "root";
+$pass="";
+$DBName= "minicart";
+
+//datasource
+$dataSourceName= "mysql:host=$host;dbname=$DBName";
+
+//PDO
+$pdo = new PDO($dataSourceName,$user,$pass);
+
